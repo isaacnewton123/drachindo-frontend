@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 
 const Headers = () => {
   return (
-    <header className="bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+    <header className="bg-slate-800 backdrop-blur-sm sticky top-0 z-50">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-8">
@@ -38,7 +38,7 @@ const Headers = () => {
                 </span>
                 <input
                   type="text"
-                  className="w-full py-2 pl-10 pr-4 text-gray-300 bg-slate-800 border border-transparent rounded-md focus:border-red-500 focus:outline-none focus:ring focus:ring-red-500/50"
+                  className="w-full py-2 pl-10 pr-4 text-gray-300 bg-slate-600 border border-transparent rounded-md focus:border-red-500 focus:outline-none focus:ring focus:ring-red-500/50"
                   placeholder="Cari..."
                 />
               </div>
@@ -50,20 +50,7 @@ const Headers = () => {
               type="button"
               className="bg-slate-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-slate-800 focus:ring-white"
             >
-              <svg
-                className="block h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+              <FaSearch/>
             </button>
           </div>
         </div>
