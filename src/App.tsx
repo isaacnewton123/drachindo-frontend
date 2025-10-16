@@ -1,14 +1,10 @@
-import Headers from "./components/headers";
-import TrendingSection from "./components/trendingSection";
+import HomeContainer from "./components/homeContainer";
 
 function App() {
   return (
-    <div className="bg-slate-900 min-h-screen">
-      <Headers />
-      <main>
-        <TrendingSection />
-      </main>
-    </div>
+    <>
+    <HomeContainer/>
+    </>
   );
 }
 
